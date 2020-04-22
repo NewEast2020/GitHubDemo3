@@ -5,4 +5,7 @@ public class App {
     public void doStuff(){
         System.out.println("Doing Stuff");
     }
+    private static void featureZ(){
+        new App().doStuff();
+    }
 }
